@@ -13,6 +13,7 @@ padding: 0;
 
 	  #table {	
  position: fixed;
+   z-index: 1;
 }
 	  
 table, th, td {
@@ -141,6 +142,29 @@ margin: 0;
 width: 500px;
 float: left;
  }
+ figure:nth-of-type(4){
+width: 400px;
+margin: 0 auto;
+padding: 30px;
+float: left;
+animation: pic 1s linear infinite alternate;
+animation-timing-function: ease-in-out;
+ }
+ 
+ figure:nth-of-type(5){
+width: 400px;
+margin: 0 auto;
+padding: 30px;
+float: left;
+animation: pic 1s linear infinite alternate;
+animation-timing-function: ease-in-out;
+ }
+ 
+ @keyframes pic {
+
+  0%  {transform: rotateZ(3deg);}
+  100% {transform: rotateZ(-3deg);}
+}
  
 header:nth-of-type(2){
 width: 1200px;
@@ -160,13 +184,7 @@ float: left;
 clear: left;
 background-color: #1ab2ff;
  }
- 
-figure:nth-of-type(4){
-width: 400px;
-margin: 0 auto;
-padding: 30px;
-float: left;
- }
+
  
 header:nth-of-type(4){
 width: 600px;
