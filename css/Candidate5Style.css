@@ -185,6 +185,26 @@ animation-timing-function: ease-in-out;
   0%  {transform: rotateZ(3deg);}
   100% {transform: rotateZ(-3deg);}
 }
+
+figure:nth-of-type(1):hover{
+transform: scale(1.2);
+				}
+figure:nth-of-type(2):hover{
+transform: scale(1.2);
+				}
+figure:nth-of-type(3):hover{
+transform: scale(1.2);
+				} 
+figure:nth-of-type(6):hover{
+transform: scale(1.2);
+				}
+figure:nth-of-type(7):hover{
+transform: scale(1.2);
+				}
+figure:nth-of-type(8):hover{
+transform: scale(1.2);
+				}
+
 header:nth-of-type(4){
 width: 600px;
 height: 600px;
